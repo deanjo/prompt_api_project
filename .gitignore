@@ -1,0 +1,78 @@
+# Python 虚拟环境
+.venv/
+.venv1/
+venv/
+env/
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 日志文件
+*.log
+
+# 打包和分发相关
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# 测试和覆盖率报告
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.tox/
+.pytest_cache/
+
+# Jupyter Notebook 相关
+.ipynb_checkpoints/
+
+# IDE 和编辑器相关
+.idea/  # PyCharm
+.vscode/  # Visual Studio Code
+*.sublime-project
+*.sublime-workspace
+
+# Mac 系统文件
+.DS_Store
+
+# 其他临时文件
+*.bak
+*.swp
+*~
+
+# 数据库文件（如果适用）
+*.sqlite3
+*.db
+
+# 环境变量或配置文件
+.env
+*.env.local
+*.env.*.local
+
+# 其他常见忽略
+*.pid
+*.seed
+*.pid.lock
+
+*.iml
+
+*.idea
+
+*.idea*
+
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml

@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "api/markdown_handler.py": {
+      "runtime": "python3.12"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/prompt/v1/api/markdown/:filename",
+      "destination": "/api/markdown_handler?version=v1&type=markdown&filename=:filename"
+    },
+    {
+      "source": "/prompt/v2/api/markdown/:filename",
+      "destination": "/api/markdown_handler?version=v2&type=markdown&filename=:filename"
+    }
+  ]
+}
